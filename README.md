@@ -25,7 +25,7 @@ Run 'main_demo.m' to do the prediction with the selected variables.
 
 ### ANOVA decomposition
 
-The EHHNN predictor possesses sparse neuron connections, which make the variables and their interaction decomposable with ANOVA decomposition. With  the ANOVA decomposition and its corresponding $\sigma$​​ values, the relative importance of different so-called ANOVA function (e.g.,  traffic variables and their interactions).
+The EHHNN predictor possesses sparse neuron connections, which make the variables and their interaction decomposable with ANOVA decomposition. With  the ANOVA decomposition and its corresponding $\sigma$ values, the relative importance of different so-called ANOVA functions  (e.g.,  traffic variables and their interactions) can be revealed.
 
 See 'anova_ehh.m' applying ANOVA decomposition to the EHHNN predictor, and it is run in 'main_demo_single_layer.m' for varied variable selections and also in 'main_demo.m' after obtaining the predictor. With the ANOVA results, varied analysis can be done, such as spatial-temporal analysis (up to the users),  etc. The last block in  'main_demo_single_layer.m' gives an illustration of analysis.
 
