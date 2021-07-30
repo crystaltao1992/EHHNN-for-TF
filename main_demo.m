@@ -102,6 +102,7 @@ MAE = sum(abs(ytt-y_test))/test_n;
 RMSE = sqrt( sum((ytt-y_test).^2)/test_n );
 R2 = 1-norm(ytt-y_test)^2/norm(y_test-mean(y_test))^2;
 
+fprintf('Tesingting RMSE: %.3f, MAE: %.3f, R2: %.3f \n', RMSE, MAE, R2)
 
 %% ------------------- anova decomposition ----------------------
 % varied variables analysis can be flexibly done here, according to the needs
